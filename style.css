@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #2F4F30; /* Verde similar a una mesa de poker */
+  color: white;
+  font-family: Arial, sans-serif; /* Añadir una fuente común para mayor legibilidad */
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 2rem; /* Se utiliza rem para un tamaño de fuente más flexible */
+  border-bottom: 5px solid #444; /* Línea de separación elegante */
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+  left: 50%;
+  transform: translateX(-50%); /* Centra la carta en su contenedor */
+  margin-bottom: 10px;
+}
+
+#computadora-cartas, #jugador-cartas {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+  font-size: 1rem; /* Tamaño de fuente ajustado */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#divBotones {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
